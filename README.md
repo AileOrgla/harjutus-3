@@ -20,6 +20,17 @@ harjutus-3
           $variable = 20;
           echo $variable;
        ?> 
+       <h1>Stringid</h1>
+       <?php echo " Hello world"; 
+       echo "<br>";
+       echo ' Hello world'; 
+       echo "<br>";
+
+          $text = 24;
+          $text2 = 26;
+          echo $text . $text2; 
+          echo "<br>";
+       ?>
     
 
    </body>
