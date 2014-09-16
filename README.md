@@ -46,7 +46,13 @@ harjutus-3
               <li> ".$student3."</li>
               <li> ".$student4."</li>
               <li> ".$student5."</li>
-          </ul>" ;  
+          </ul>" ; 
+          
+          $firstName = "Aile";
+          $lastName = "Orgla";
+          $fullName = "$firstName " . "$lastName";
+          echo "$fullName" ;  
+          echo "<br>";
     
 
    </body>
