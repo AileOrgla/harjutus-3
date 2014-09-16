@@ -54,6 +54,9 @@ harjutus-3
           echo "$fullName" ;  
           echo "<br>";
     
+         $test = "Testin";
+          echo "$test kas interpolatsioon töötab";
+          echo "<br>";
 
    </body>
 
