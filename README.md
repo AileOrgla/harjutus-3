@@ -31,6 +31,22 @@ harjutus-3
           echo $text . $text2; 
           echo "<br>";
        ?>
+       <h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
+       <?php
+          $student1 = "Risto";
+          $student2 = "Maile";
+          $student3 = "Tõnis";
+          $student4 = "Ants";
+          $student5 = "Margit";
+
+          echo 
+         "<ul>
+              <li>".$student1."</li>
+              <li> ".$student2."</li>
+              <li> ".$student3."</li>
+              <li> ".$student4."</li>
+              <li> ".$student5."</li>
+          </ul>" ;  
     
 
    </body>
