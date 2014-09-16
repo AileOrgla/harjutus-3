@@ -58,6 +58,61 @@ harjutus-3
           echo "$test kas interpolatsioon töötab";
           echo "<br>";
 
+         $age = "20";
+          echo "Ma olen {$age}aastane";
+
+          $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+          $lower = strtolower($source);
+          echo "<p>{$lower}</p>";
+
+          $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+          $upper = strtoupper($source);
+          echo "<p>{$upper}</p>";
+
+          $source = "see Tekst sisaldab suuri tähemärke!!!";
+          $first = ucfirst($source);
+          echo "<p>{$first}</p>";
+
+          $source = "see Tekst sisaldab suuri tähemärke!!!";
+          $words = ucwords($source);
+          echo "<p>{$words}</p>";
+
+          $source = "see Tekst sisaldab suuri tähemärke!!!";
+          $strlen = strlen($source);
+          echo "<p>{$strlen}</p>";
+
+          echo "A" . trim(" B C D E") . "F";
+      ?>
+    <h2>Täisarvud</h2>
+       <?php 
+          $nr1 = 5;
+          $nr2 = 10;
+          echo ($nr1 + $nr2) * 2;
+          echo "<br>";
+
+          echo abs(-300);
+          echo "<br>";
+          // Viis ruudus:
+          echo pow(5, 2);
+          echo "<br>";
+          // Seitse kuubis:
+          echo pow(7, 3);
+          echo "<br>";
+          // Kolm astmel seitse:
+          echo pow(3, 7);
+          echo "<br>";
+
+          // Ruutjuur 25-st:
+          echo sqrt(25);
+
+          // Suvaline number
+          echo rand();
+
+          // Lihtsalt reavahetus, et vältida segadust piiranguteta ja piiranguga numbritel vahet tegemisel.
+           echo "<br>";
+
+          // Suvaline number vahemikus 7 - 22:
+          echo rand(7, 22);
    </body>
 
 </html>
